@@ -15,7 +15,7 @@ Accss SQLite database.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'FMDB', '>= 2.7.5'
+  s.dependency 'FMDB', '2.7.2'
 
   s.platform = :ios, '9.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
